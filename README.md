@@ -47,6 +47,9 @@ F1 score on training data:  0.999960197421   <br>
 F1 score on testing data:  0.912538516236
 
 
-## Requirements
-
+### Requirements
+Python 3.8 <br>
+numpy 1.16.4 <br>
+pandas 0.22.0 <br>
+matplotlib 2.1.2 <br>
 ## Conclusion
