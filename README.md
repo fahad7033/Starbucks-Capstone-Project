@@ -40,6 +40,7 @@
 
 
 Accuracy of the model on training data:  0.999962406015
+
 Accuracy of the model on testing data:  0.916773174949
 
 <br>
