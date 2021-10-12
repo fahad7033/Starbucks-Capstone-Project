@@ -44,7 +44,7 @@ Accuracy of the model on training data:  0.999962406015
 Accuracy of the model on testing data:  0.916773174949
 
 <br>
-F1 score on training data:  0.999960197421
+F1 score on training data:  0.999960197421   <br>
 F1 score on testing data:  0.912538516236
 
 
