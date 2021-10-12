@@ -30,7 +30,11 @@
 
 ## Data Analysis
 
+![Image](images/analysis1.png)
 
+
+
+![Image](images/analysis2.png)
 
 ## Building a Model
 
