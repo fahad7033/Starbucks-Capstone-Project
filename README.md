@@ -37,10 +37,9 @@
 ![Image](images/analysis2.png)
 
 ## Building a Model
+I built a rendomforest classifier to classify an offer wether it will sucsses with a specific customer or not. The model was trained and tested on 66501 instances (80% of the data used for training and 20% of the data used for testing). The model was evaluated in different matrices as followig:
 
-
-Accuracy of the model on training data:  0.999962406015
-
+Accuracy of the model on training data:  0.999962406015  <br>
 Accuracy of the model on testing data:  0.916773174949
 
 <br>
