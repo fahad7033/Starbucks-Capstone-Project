@@ -6,17 +6,21 @@
 
 
 ## datasets
-1- prfole
+1- prfoile dataset
 
+![Image](images/profile.png)
+
+<br>
+2-portfolio dataset
+
+![Image](images/portfolio_dataset.png)
 
 
 <br>
-2-portfolio
+3-transcript dataset
 
+![Image](images/transcript.png)
 
-
-<br>
-3-transaction
 
 
 
