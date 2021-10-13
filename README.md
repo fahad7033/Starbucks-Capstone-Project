@@ -44,19 +44,20 @@ We also found that the number of joining customers every year has more males tha
 ![Image](images/analysis2.png)
 
 ## Building a Model
-I built a rendomforest classifier to classify an offer wether it will sucsses with a specific customer or not. The model was trained and tested on 66501 instances (80% of the data used for training and 20% of the data used for testing). The model was evaluated in different matrices as followig:
+I built a randomforest classifier to classify an offer wether it will sucsses with a specific customer or not. The model was trained and tested on 66501 instances (80% of the data used for training and 20% of the data used for testing). The model was evaluated in different matrices as followig:
 
 Accuracy of the model on training data:  0.999962406015  <br>
 Accuracy of the model on testing data:  0.916773174949
-
 <br>
 F1 score on training data:  0.999960197421   <br>
 F1 score on testing data:  0.912538516236
 
 
-### Requirements
+#### Requirements
 Python 3.8 <br>
 numpy 1.16.4 <br>
 pandas 0.22.0 <br>
 matplotlib 2.1.2 <br>
 ## Conclusion
+In this project, the dataset of Starbucks was investigated and analysed. We found that most of the customers in the age of 50s and have income beteen 60,000 and 80,000. Also, a model of randomforests was trained in the dataset to predict if an offer wehter be sucssess with a scpecific user or not. The model trained and tested and achieved a reasonable accuracy on the testing data. The compled code can be found in the notebook "Starbucks_Capstone_notebook_task"
+
