@@ -38,7 +38,8 @@ After analysing the data of registered customers, we found that most of customer
 
 ![Image](images/analysis1.png)
 
-
+<br>
+We also found that the number of joining customers every year has more males thans femals. Particularly, 2500 of femals joined in 2017 while 3000 of males joined in the same year. In 2018, the number of male customers was tow times the number of femal customers as it is clear in the below chart. 
 
 ![Image](images/analysis2.png)
 
