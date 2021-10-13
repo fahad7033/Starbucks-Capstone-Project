@@ -59,5 +59,5 @@ numpy 1.16.4 <br>
 pandas 0.22.0 <br>
 matplotlib 2.1.2 <br>
 ## Conclusion
-In this project, the dataset of Starbucks was investigated and analysed. We found that most of the customers in the age of 50s and have income beteen 60,000 and 80,000. Also, a model of randomforests was trained in the dataset to predict if an offer wehter be sucssess with a scpecific user or not. The model trained and tested and achieved a reasonable accuracy on the testing data. The compled code can be found in the notebook "Starbucks_Capstone_notebook_task"
+In this project, the dataset of Starbucks was investigated and analysed. We found that most of the customers in the age of 50s and have income beteen 60,000 and 80,000. Also, a model of randomforests was trained in the dataset to predict if an offer wehter be sucssess with a scpecific user or not. The model trained and tested and achieved a reasonable accuracy on the testing data. The compled code can be found in the notebook "Starbucks_Capstone_notebook_task". Finally, I would like to thank to Udacity www.udacity.com for offering such a great project.
 
