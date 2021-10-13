@@ -1,6 +1,6 @@
 # Starbucks-Capstone-Project
 
-
+![Image](images/header.png)
 
 ## Introdction
 
