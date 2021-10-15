@@ -1,77 +1,63 @@
-# Data science blog post for Seattle Airbnb listings dataset
-![Image](images/welcome.png)
+# Starbucks-Capstone-Project
+
+![Image](images/header.png)
+
+## Introdction
+
+This is the capstone project of udacity data scientist nanodegree. In this project, the dataset of Starbucks customer behavior is investigated and analysed. Starbucks collects data about customers and how they react with the offers sent via mobile app. The offers might be a discount or buy one get one free (BOGO).
+
+
+## datasets
+The data is contained in three files: <br>
+profile.json - demographic data for each customer <br>
+portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.) <br>
+transcript.json - records for transactions, offers received, offers viewed, and offers completed <br>
+
+
+1- profile dataset
+
+![Image](images/profile.png)
 
 <br>
+2-portfolio dataset
 
-## Overview
-
-Airbnb is a marketplace that offers a wide range of hosts in different places arround the world. AS a part of the Udacity data scientist nanodegree, this blog post presents 3 business questions about Seattle Airbnb listings Dataset. The dataset contains the listing details of homestays inSeatle. 3818 listings details are available in the dataset (92 features) as shown below:
-
-![Image](images/table.png)
+![Image](images/portfolio_dataset.png)
 
 
-#### Here, there are 3 business questions asked that we are trying to answer:
-1.	Which type of properties has the highest number of hosts?
-2.	What are the top 5 neighborhoods that have the maximum number of hosts?
-3.	Which neighborhoods have the highest average of prices and the neighborhoods have the lowest average of prices?
+<br>
+3-transcript dataset
 
-## Question 1: Which type of properties has the highest number of hosts? 
-In the listing dataset there are 16 types of properties. The types of properties that have the maximum number of hosts are houses and apartments. Houses represent 45.75% of the listings where apartments represent 44.46% of the listings. The below chart shows the count of properties according to each type.  
- 
- ![Image](images/q1_img.png) 
-
-## Question 2: What are the top 5 neighborhoods that have the maximum number of hosts?
-The hosts in the listings are offered within 81 neighborhoods. However, there are some neighborhoods have more number of hosts. The data shows that 10.32% of the hosts are located in “Capitol Hill”. Here are the top 5 neighborhoods that have the maximum number of hosts:
-
-```markdown
-•	Capitol Hill    10.320494
-•	Ballard          6.262864
-•	Belltown         5.998236
-•	Minor            5.645398
-•	Queen Anne       5.498383
-```
-
-The chart below shows the number of hosts for every neighborhood:
-
- ![Image](images/q2_img.png) 
+![Image](images/transcript.png)
 
 
 
 
-## Question 3: Which neighborhoods have the highest average of prices and the neighborhoods have the lowest average of prices?
-According to the data, “Fairmount Park” has the highest average of prices where where “Roxhill” is the neighborhood that has the lowest average of prices. The list below shows the top 5 neighborhoods and the low 5 neighborhoods according to the average of prices.
 
-```markdown
-Top 5 neighbourhoods :
+## Data Analysis
+After analysing the data of registered customers, we found that most of customers have income in the range (60,000 and 80,000) and in the age of 50s. In addition, the majority of customers joined to app in 2017 and 2018. The distributions of income, age, and joining are presented in the following diagram:
 
-Neighborhood          price
-                  
-Fairmount Park       370.000000
-Industrial District  245.000000
-Portage Bay          241.428571
-Westlake             197.000000
-Alki                 196.652174
-```
-The pie chart below shows thoes top 5 neighbourhoods:
+![Image](images/analysis1.png)
 
- ![Image](images/q3_1_image.png) 
+<br>
+We also found that the number of joining customers every year has more males thans femals. Particularly, 2500 of femals joined in 2017 while 3000 of males joined in the same year. In 2018, the number of male customers was tow times the number of femal customers as it is clear in the below chart. 
 
-```markdown
- Low 5 neighbourhoods :
+![Image](images/analysis2.png)
 
-neighbourhood   price
-           
-Roxhill        60.000000
-Olympic Hills  63.666667
-Dunlap         71.750000
-Rainier Beach  76.722222
-Georgetown     77.000000
-```
+## Building a Model
+I built a randomforest classifier to classify an offer wether it will sucsses with a specific customer or not. The model was trained and tested on 66501 instances (80% of the data used for training and 20% of the data used for testing). The model was evaluated in different matrices as followig:
 
-The pie chart below shows those low 5 neighbourhoods:
-
-![Image](images/q3_2_img.png) 
+Accuracy of the model on training data:  0.999962406015  <br>
+Accuracy of the model on testing data:  0.916773174949
+<br>
+F1 score on training data:  0.999960197421   <br>
+F1 score on testing data:  0.912538516236
 
 
-## Summury
-In this post, we analysed the Airbnb listings dataset to answer 3 business questions. We found that the majority of hosts in the dataset are houses which represents 45.75% of the dataset. We also found that Capitol Hill neighborhood contains the highest number of hosts. We also specified the top 5 and low 5 neighbourhoods in terms of average prices.
+#### Requirements
+Python 3.8 <br>
+numpy 1.16.4 <br>
+pandas 0.22.0 <br>
+matplotlib 2.1.2 <br>
+## Conclusion
+In this project, the dataset of Starbucks was investigated and analysed. We found that most of the customers in the age of 50s and have income beteen 60,000 and 80,000. Also, a model of randomforests was trained in the dataset to predict if an offer wehter be sucssess with a scpecific user or not. The model trained and tested and achieved a reasonable accuracy on the testing data. The compled code can be found in the notebook "Starbucks_Capstone_notebook_task". Finally, I would like to thank to Udacity www.udacity.com for offering such a great project.
+
