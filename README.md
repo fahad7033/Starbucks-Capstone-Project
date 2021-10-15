@@ -13,9 +13,10 @@ matplotlib 2.1.2 <br>
 
 
 ### Files in the repository:
-index.md Jupyter notebook contains the analysis results for non-technical audiences business_questions_analysis.ipynb Jupyter notebook contains the code for analysis images the directoy of images presented in the index.md document
+index.md Jupyter notebook contains the analysis results for non-technical audiences. <br>
+Starbucks_Capstone_notebook_task.ipynb Jupyter notebook contains the code for data analysis. <br>
+data directory contains the files of datasets.
 
-<br>
 ### Results:
 The analysis of the dataset for non-technical audience can be found in:
 https://github.com/fahad7033/Starbucks-Capstone-Project/blob/master/index.md
