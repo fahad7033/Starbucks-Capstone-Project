@@ -7,10 +7,10 @@
 This is the capstone project of udacity data scientist nanodegree. In this project, the dataset of Starbucks customer behavior is investigated and analysed. Starbucks collects data about customers and how they react with the offers sent via mobile app. The offers might be a discount or buy one get one free (BOGO).
 
 ## Problem Statement
-I chose this project to understand the success rate of offers being sent and analysis is done through addressing the following questions.
+This project is about investigating the data of Starbucks customers and offers. Data is used for the following tasks:
 
-How many customers were provided with a specific offer?
-Building a model to idenify customers who potentially will take an offer
+1- Investigating some information about customers such as age, income, and joining.
+2- Building a model to idenify customers who potentially will take an offer
 
 ## Data Exploration
 The data is contained in three files: <br>
@@ -38,6 +38,29 @@ transcript.json - records for transactions, offers received, offers viewed, and 
 ## Data Preprocessing
 It is clear from the data exploration that the data have some issues. In order to improve the qualit of the data, we implemented the following procedures:
 <br>
+For portfolio dataset:
+1.Rename the column of id to be offer_id instead.
+2.Encoding the column of channels
+3.Create dummy variables for the column offer_type
+
+<br>
+For profile dataset:
+1-Renaming the column of id to be customer_id.
+2-The column became_member_on should be changed to be a readable date by separating years and months in separated columns
+3-The culomn age contains the value 118 which refers to nan, so it should be changed to nan
+4-Rows with nan values in the fields gender, income, or age are droped
+5-Converting gender values to 0s for females and 1s for males
+
+<br>
+For transcript dataset:
+1-Renaming the column of person to be customer_id.
+2-Creating separated columns for amount, reward and offer_id from the column value
+3-Dropping transaction rows whose customer_id is not in customer_id of proflie dataset
+4-Converting time from hours to be in days
+5-Create dummy variables for the column event
+
+<br>
+
 
 ## Data Analysis
 After analysing the data of registered customers, we found that most of customers have income in the range (60,000 and 80,000) and in the age of 50s. In addition, the majority of customers joined to app in 2017 and 2018. The distributions of income, age, and joining are presented in the following diagram:
