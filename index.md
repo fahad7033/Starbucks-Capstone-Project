@@ -9,7 +9,7 @@ This is the capstone project of udacity data scientist nanodegree. In this proje
 ## Problem Statement
 This project is about investigating the data of Starbucks customers and offers. Data is used for the following tasks:
 
-1- Investigating some information about customers such as age, income, and joining.
+1- Investigating some information about customers such as age, income, and joining.  <br>
 2- Building a model to idenify customers who potentially will take an offer
 
 ## Data Exploration
