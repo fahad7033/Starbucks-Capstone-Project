@@ -1,7 +1,7 @@
 # Starbucks-Capstone-Project
-<center>
+<centre>
 ![Image](images/header.png)
-</center>
+</centre>
 ## Project Overview
 
 This is the capstone project of udacity data scientist nanodegree. In this project, the dataset of Starbucks customer behavior is investigated and analysed. Starbucks collects data about customers and how they react with the offers sent via mobile app. The offers might be a discount or buy one get one free (BOGO).
