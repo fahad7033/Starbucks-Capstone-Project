@@ -1,6 +1,7 @@
 # Starbucks-Capstone-Project
 <p align="center">
 ![Image](images/header.png)
+  <img width="460" height="300" src="images/header.png">
 </p>
 ## Project Overview
 
