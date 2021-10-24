@@ -7,7 +7,10 @@
 This is the capstone project of udacity data scientist nanodegree. In this project, the dataset of Starbucks customer behavior is investigated and analysed. Starbucks collects data about customers and how they react with the offers sent via mobile app. The offers might be a discount or buy one get one free (BOGO).
 
 ## Problem Statement
+I chose this project to understand the success rate of offers being sent and analysis is done through addressing the following questions.
 
+How many customers were provided with a specific offer?
+Building a model to idenify customers who potentially will take an offer
 
 ## Data Exploration
 The data is contained in three files: <br>
@@ -57,12 +60,15 @@ Accuracy of the model on testing data:  0.916773174949
 F1 score on training data:  0.999960197421   <br>
 F1 score on testing data:  0.912538516236
 
+From the rvaluation results, we can say that the model can assist in identifying customers who potentialy will take an offer with 91% rate of success.
 
 #### Requirements
 Python 3.8 <br>
 numpy 1.16.4 <br>
 pandas 0.22.0 <br>
 matplotlib 2.1.2 <br>
+<br>
+
 ## Conclusion
 In this project, the dataset of Starbucks was investigated and analysed. We found that most of the customers in the age of 50s and have income beteen 60,000 and 80,000. Also, a model of randomforests was trained in the dataset to predict if an offer wehter be sucssess with a scpecific user or not. The model trained and tested and achieved a reasonable accuracy on the testing data. The compled code can be found in the notebook "Starbucks_Capstone_notebook_task". Finally, I would like to thank to Udacity www.udacity.com for offering such a great project.
 
