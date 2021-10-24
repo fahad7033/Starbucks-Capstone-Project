@@ -29,7 +29,7 @@ transcript.json - records for transactions, offers received, offers viewed, and 
 <br>
 3-transcript dataset
 <p align="center">
-![Image](images/transcript.png)
+  <img  src="images/transcript.png"> 
 </p>
 
 ## Data Preprocessing
@@ -40,13 +40,13 @@ It is clear from the data exploration that the data have some issues. In order t
 After analysing the data of registered customers, we found that most of customers have income in the range (60,000 and 80,000) and in the age of 50s. In addition, the majority of customers joined to app in 2017 and 2018. The distributions of income, age, and joining are presented in the following diagram:
 
 <p align="center">
-![Image](images/analysis1.png)
+  <img  src="images/analysis1.png"> 
 </p>
 <br>
 We also found that the number of joining customers every year has more males thans femals. Particularly, 2500 of femals joined in 2017 while 3000 of males joined in the same year. In 2018, the number of male customers was tow times the number of femal customers as it is clear in the below chart. 
 <p align="center">
+  <img  src="images/analysis2.png"> 
 
-![Image](images/analysis2.png)
 </p>
 ## Building a Model
 I built a randomforest classifier to classify an offer wether it will sucsses with a specific customer or not. The model was trained and tested on 66501 instances (80% of the data used for training and 20% of the data used for testing). The model was evaluated in different matrices as followig:
