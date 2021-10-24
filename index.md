@@ -38,26 +38,26 @@ transcript.json - records for transactions, offers received, offers viewed, and 
 ## Data Preprocessing
 It is clear from the data exploration that the data have some issues. In order to improve the qualit of the data, we implemented the following procedures:
 <br>
-For portfolio dataset:
-1.Rename the column of id to be offer_id instead.
-2.Encoding the column of channels
-3.Create dummy variables for the column offer_type
+For portfolio dataset: <br>
+1.Rename the column of id to be offer_id instead. <br>
+2.Encoding the column of channels. <br>
+3.Create dummy variables for the column offer_type <br>
 
 <br>
-For profile dataset:
-1-Renaming the column of id to be customer_id.
-2-The column became_member_on should be changed to be a readable date by separating years and months in separated columns
-3-The culomn age contains the value 118 which refers to nan, so it should be changed to nan
-4-Rows with nan values in the fields gender, income, or age are droped
-5-Converting gender values to 0s for females and 1s for males
+For profile dataset: <br>
+1-Renaming the column of id to be customer_id. <br>
+2-The column became_member_on should be changed to be a readable date by separating years and months in separated columns <br>
+3-The culomn age contains the value 118 which refers to nan, so it should be changed to nan <br>
+4-Rows with nan values in the fields gender, income, or age are droped <br>
+5-Converting gender values to 0s for females and 1s for males <br>
 
 <br>
-For transcript dataset:
-1-Renaming the column of person to be customer_id.
-2-Creating separated columns for amount, reward and offer_id from the column value
-3-Dropping transaction rows whose customer_id is not in customer_id of proflie dataset
-4-Converting time from hours to be in days
-5-Create dummy variables for the column event
+For transcript dataset: <br>
+1-Renaming the column of person to be customer_id. <br>
+2-Creating separated columns for amount, reward and offer_id from the column value <br>
+3-Dropping transaction rows whose customer_id is not in customer_id of proflie dataset <br>
+4-Converting time from hours to be in days <br>
+5-Create dummy variables for the column event <br>
 
 <br>
 
