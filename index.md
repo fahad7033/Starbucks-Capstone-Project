@@ -1,7 +1,6 @@
 # Starbucks-Capstone-Project
 <p align="center">
-![Image](images/header.png)
-  <img width="460" height="300" src="images/header.png">
+  <img  src="images/header.png">
 </p>
 ## Project Overview
 
@@ -19,12 +18,12 @@ transcript.json - records for transactions, offers received, offers viewed, and 
 
 1- profile dataset
 <p align="center">
-![Image](images/profile.png)
+  <img  src="images/profile.png">
 </p>
 <br>
 2-portfolio dataset
 <p align="center">
-![Image](images/portfolio_dataset.png)
+  <img  src="images/portfolio_dataset.png"> 
 </p>
 
 <br>
